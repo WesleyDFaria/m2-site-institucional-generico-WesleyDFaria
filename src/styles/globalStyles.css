@@ -1,0 +1,16 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --cor-brand-1: #4C6EF5;
+    --cor-brand-2: #364FC7;
+    --cor-gray-1: #191C1F;
+    --cor-gray-2: #212529;
+    --cor-gray-3:#343A40;
+    --cor-gray-4:#ADB5BD;
+    --cor-gray-5:#CED4DA;
+    --cor-gray-6:#EDF2FF;
+    --cor-gray-7:#F8F9FA;
+
+    --font-family-1: "Inter", sans-serif
+}
