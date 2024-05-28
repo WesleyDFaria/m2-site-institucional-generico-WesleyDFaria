@@ -1,7 +1,5 @@
 body {
   font-family: var(--font-family-1);
-  
-  
 }
 .container__header {
   background-color: var(--cor-gray-1);
@@ -9,15 +7,12 @@ body {
   z-index: 1;
   width: 100%;
   border-bottom: 2px solid var(--cor-brand-1);
-  
-  
 }
 .container__header__div {
   display: flex;
   justify-content: space-around;
   padding: 1.188rem;
   width: 100%;
-  
 }
 .container__header__btn {
   border: 1px solid var(--cor-gray-7);
@@ -45,7 +40,6 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  
 }
 .banner__title-1 {
   font-family: var(--font-family-1);
@@ -104,23 +98,25 @@ body {
   text-align: justify;
   font-size: 1.125rem;
   line-height: 1.875rem;
-  
 }
-
 .faq {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 70.75rem;
   background-color: var(--cor-gray-2);
 }
 .faq__div {
-  display:flex ;
-  
 }
+
 .faq__div__left {
-  padding: 5rem;
-  max-width: 100%;
+  position: sticky;
+  top: 6rem;
+  left: 2rem;
+  margin-left: 8.75rem;
+  padding: 6.25rem;
+}
+.faq__ul__rigth {
+  position: sticky;
+  margin-left: 62.5rem;
+  bottom: 2rem;
+  padding: 3.125rem;
 }
 .faq__title__left {
   font-family: var(--font-family-1);
@@ -148,17 +144,12 @@ body {
   cursor: pointer;
 }
 
-.faq__ul__rigth {
-  padding: 3.125rem;
-  margin-left: 100px;
-}
-
 .faq__title__h3 {
   font-family: var(--font-family-1);
   color: var(--cor-gray-6);
   font-size: 2rem;
   margin-top: 3.125rem;
-  text-align: center;
+  margin-left: 3.75rem;
 }
 .faq__paragraph__li {
   font-family: var(--font-family-1);
@@ -170,10 +161,8 @@ body {
 }
 
 .comments {
-  position: relative;
   width: 100%;
-  
-  height:74.5rem;
+  height: 74.5rem;
   background-color: var(--cor-gray-2);
   color: var(--cor-gray-7);
 }
@@ -184,9 +173,11 @@ body {
   max-width: 100%;
 }
 .comments__box__rigth {
+  position: sticky;
+  top: 9rem;
   background-color: var(--cor-brand-1);
-  width: 293px;
-  height: 243px;
+  width:18.313rem;
+  height: 15.188rem;
   padding: 80px 52px;
 }
 .comments__title__h2 {
