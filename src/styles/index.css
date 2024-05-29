@@ -235,3 +235,85 @@ body {
   max-width: 100%;
   height: 102px;
 }
+
+dialog{
+    padding: 0;
+    border: 2px solid var(--cor-brand-1);
+    background-color: var(--cor-gray-2);
+    width: 504px;
+    height: 416px;
+}
+
+dialog::backdrop{
+    background-color: rgba(0,0,0, 0.8);
+}
+
+.modal__container{
+    width: 504px;
+    height: 416px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.closeModal{
+    position: relative;
+    width: 38px;
+    height: 32px;
+    border-radius:4px;
+    gap: 10px;
+    left: 438px;
+    top:60px;
+    background-color: var(--cor-gray-3);
+    color: var(--cor-gray-4);
+    font-family: var(--font-family-1);
+    font-size: 20px;
+    border: none;
+    
+       
+}
+.modal__title{
+    font-family: var(--font-family-1);
+    color: var(--cor-gray-7);
+    font-size: 32px;
+    line-height: 51.2px;
+    padding: 25px;
+   
+    
+}
+.modal__paragraph{
+    font-family: var(--font-family-1);
+    color: var(--cor-gray-4);
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    width: 448px;
+    height: 72px;
+    padding: 25px;
+}
+.input__modal{
+    width: 408px;
+    height: 21px;
+    margin-left: 30px;
+    font-family: var(--font-family-1);
+    color: var(--cor-gray-4);
+    background-color: var(--cor-gray-1);
+    border: none;
+    font-size: 20px;
+    padding: 17px;
+    
+}
+
+.modal__btn{
+    font-family: var(--font-family-1);
+    background-color: var(--cor-brand-1);
+    color: var(--cor-gray-7);
+    width: 441px;
+    height: 61px;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+    

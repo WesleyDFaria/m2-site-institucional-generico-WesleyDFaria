@@ -26,7 +26,8 @@
           </h1>
           <p class="banner__paragraph-1">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since
+            industry.<br />
+            Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s
           </p>
           <button class="banner__btn">Sobre nós</button>
@@ -199,11 +200,28 @@
 
     <!-- ====== Footer ====== -->
     <footer class="footer">
-      <img class="img__footer" src="./src/assets/Generic Course.png" alt="logo-footer" />
+      <img
+        class="img__footer"
+        src="./src/assets/Generic Course.png"
+        alt="logo-footer"
+      />
     </footer>
 
     <!-- ====== Modal ====== -->
-    <dialog></dialog>
+    <dialog class="modalController">
+      
+      <div class="modal__container">
+        <button class="closeModal">X</button>
+      <h1 class="modal__title">Cadastro</h1>
+      <p class="modal__paragraph">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s
+      </p>
+      <input class="input__modal" type="text" placeholder="Digitar email">
+      <button class="modal__btn">Entrar na lista para próxima turma</button>
+    </div>
+    </dialog>
     <script src="./src/scripts/index.js"></script>
   </body>
 </html>
